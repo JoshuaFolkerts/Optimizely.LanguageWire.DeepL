@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\JoFol\.nuget\packages\episerver.labs.languagemanager\5.2.0\contentFiles\any\any\modules\_protected\EPiServer.Labs.LanguageManager\EPiServer.Labs.LanguageManager.zip" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DeepL.net" Version="1.8.0" />
+    <PackageReference Include="EPiServer.Labs.LanguageManager" Version="5.2.0" />
+  </ItemGroup>
+
+</Project>
