@@ -10,9 +10,7 @@ Follow these steps to quickly get started with Optimizely DeepL Translation:
 
  1. **Sign Up for DeepL API Key:**
 		 Visit [DeepL API](https://www.deepl.com/en/docs-api) and sign up for an API key.
- 2. **Install Dependencies:**
-	 Make sure you have the necessary dependencies installed. This may include Python libraries or any other language-specific requirements.	 
- 3. **Integrate DeepL API Key:**
+ 2. **Integrate DeepL API Key:**
 	 Insert your DeepL API key into the configuration file or directly into your app settings or startup.cs file.
      
      AppSettings.json
@@ -27,23 +25,13 @@ Follow these steps to quickly get started with Optimizely DeepL Translation:
         "AuthorizationKey": "(Your authorization Key)"
     }
     ```
- 4. **Usage Example:**
+ 3. **Usage Example:**
 	 Explore the example code provided in the repository to understand how to implement translation in your application.
      
 	Startup.cs
      ```csharp
 	service.AddDeepLLanguageService()
     ```
-## Documentation:
-Refer to the official documentation for detailed information on API methods, parameters, and best practices.
-
-## Contributing
-We welcome contributions! If you find issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
- ## Support
-If you encounter any issues or have questions, please reach out to our support team.
-Happy translating with Optimizely DeepL Translation!
+ 4. **Language manager settings**
+    Make sure you select DeepL Translation in the dropdown for language settings 
+    ![](assets/language-manager-settings.png)
